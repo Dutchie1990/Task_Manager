@@ -19,5 +19,6 @@
       "**/core.mongo*": true,
       "**/core.python*": true
    },
-   "emmet.extensionsPath": ".theia"
+"emmet.extensionsPath": ".theia",
+"liveServer.settings.multiRootWorkspaceName": "Task_Manager"
 }
