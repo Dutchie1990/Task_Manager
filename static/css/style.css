@@ -5,3 +5,11 @@
 .flashes h4{
     line-height: 2;
 }
+
+.brand-logo{
+    margin-left: 0.5em !important;
+}
+
+.exclamation{
+    margin-left: 1rem !important;
+}
