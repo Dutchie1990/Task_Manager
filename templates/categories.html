@@ -2,6 +2,13 @@
 {% block content %}
 
     <h3 class="center-align">Manage categories</h3>
+
+    <div class="row">
+        <div class="col s12 center-align">
+            <a href="{{ url_for('add_category') }}" class="btn-large green accent-4 text-shadow">Add category <i class="fas fa-plus-square right"></i></a>
+        </div>
+    </div>
+
     <div class="row">
         {% for category in categories %}
         <div class="col s6 m3">
@@ -10,8 +17,8 @@
                     <span class="card-title">{{ category.category_name}}</span>
                 </div>
                 <div class="card-action">
-                    <a href="#" class="btn green accent-4">Edit</a>
-                    <a href="#" class="btn light-blue">Delete</a>
+                    <a href="#" class="btn green accent-4 text-shadow">Edit</a>
+                    <a href="#" class="btn light-blue text-shadow">Delete</a>
                 </div>
             </div>
         </div>
